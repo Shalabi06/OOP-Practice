@@ -56,7 +56,7 @@ double getwidth(){
 double sumarea(){
   return length * width;
 }
-
+//
 };
 double sumareas(Shape *shapes[],int size){
 double sum=0;
