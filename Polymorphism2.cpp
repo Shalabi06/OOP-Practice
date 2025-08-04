@@ -73,6 +73,7 @@ int main() {
 
     ptr = new MA("Advanced Embedded Systems", "John", "Smith", 2.7, 22332);
     cout << "GPA of obj2: " << ptr->getGPA() << endl;
-
+delete  ptr;
     return 0;
 }  now
+
