@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+// good  example
 class Student {
 protected:
     int sno;
@@ -75,5 +75,6 @@ int main() {
     cout << "GPA of obj2: " << ptr->getGPA() << endl;
 delete  ptr;
     return 0;
-}  now
+}  
+
 
